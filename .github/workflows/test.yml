@@ -9,9 +9,9 @@ on:
     types: [completed]
   workflow_dispatch:
   push:
-    branches: [ master ]
+    branches: [ factory ]
   pull_request:
-    branches: [ master ]
+    branches: [ factory ]
 
 jobs:
   build:
@@ -34,7 +34,7 @@ jobs:
         CI: true
 
   publish:
-    if: ${{ github.repository == 'smogon/damage-calc' && (github.event_name == 'push' || github.event.workflow_run.conclusion == 'success') }}
+    if: ${{ github.repository == 'will-jj/damage-calc' && (github.event_name == 'push' || github.event.workflow_run.conclusion == 'success') }}
     needs: build
     runs-on: ubuntu-latest
     permissions:
