@@ -212,6 +212,14 @@ $(document).ready(function () {
 
 	$(".calc-trigger").bind("change keyup", PC_HANDLER);
 	performCalculations();
+
+	$("#fieldToggle").click(function () {
+		var fieldPanel = $("#fieldPanel");
+		console.log(fieldPanel)
+		var oldValue = fieldPanel.css('display');
+		fieldPanel.css('display', oldValue == 'none' ? 'inline-block' : 'none');
+	});
+
 });
 
 /* Click-to-copy function */
