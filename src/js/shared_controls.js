@@ -72,6 +72,7 @@ function legacyStatToStat(st) {
 // input field validation
 var bounds = {
 	"level": [0, 100],
+	"ivsAll":[0, 31],
 	"base": [1, 255],
 	"evs": [0, 252],
 	"ivs": [0, 31],
@@ -119,6 +120,18 @@ $(".level").bind("keyup change", function () {
 	calcHP(poke);
 	calcStats(poke);
 });
+
+// auto-calc stats and current HP on change
+$(".ivsAll").bind("keyup change", function () {
+	var newValue = $(this).val();
+    console.log("The new value of .ivsAll is: " + newValue);
+	var poke = $(this).closest(".poke-info");
+	setIvs(poke, newValue);
+	calcHP(poke);
+	calcStats(poke);
+});
+
+
 $(".nature").bind("keyup change", function () {
 	calcStats($(this).closest(".poke-info"));
 });
@@ -1259,6 +1272,13 @@ function calcHP(poke) {
 	calcPercentHP(poke, total, newCurrentHP);
 
 	$currentHP.attr('data-set', true);
+}
+
+function setIvs(poke, ivAll){
+	for (var i = 0; i < LEGACY_STATS[gen].length; i++) {
+		var statName = LEGACY_STATS[gen][i];
+		poke.find("." + statName).find(".ivs").val(ivAll);
+	}
 }
 
 function totalEVs(poke) {
