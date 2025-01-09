@@ -606,6 +606,19 @@ function smogonAnalysis(pokemonName) {
 
 // auto-update set details on select
 $(".set-selector").change(function () {
+	var defaultIvs = 31;
+	if (gen == 3)
+	{
+		if($(this)[0].parentElement.id == "p2")
+		{
+			defaultIvs = document.getElementById("ivsR1").value;
+		}
+		else
+		{
+			defaultIvs = document.getElementById("ivsL1").value;
+		}
+	}
+
 	var fullSetName = $(this).val();
 	var pokemonName = fullSetName.substring(0, fullSetName.indexOf(" ("));
 	var setName = fullSetName.substring(fullSetName.indexOf("(") + 1, fullSetName.lastIndexOf(")"));
@@ -693,7 +706,7 @@ $(".set-selector").change(function () {
 				pokeObj.find("." + LEGACY_STATS[gen][i] + " .evs").val(
 					(set.evs && set.evs[stat] !== undefined) ? set.evs[stat] : ($("#randoms").prop("checked") ? 84 : 0));
 				pokeObj.find("." + LEGACY_STATS[gen][i] + " .ivs").val(
-					(set.ivs && set.ivs[stat] !== undefined) ? set.ivs[stat] : 31);
+					(set.ivs && set.ivs[stat] !== undefined) ? set.ivs[stat] : defaultIvs);
 				pokeObj.find("." + LEGACY_STATS[gen][i] + " .dvs").val(
 					(set.dvs && set.dvs[stat] !== undefined) ? set.dvs[stat] : 15);
 			}
