@@ -607,7 +607,7 @@ function smogonAnalysis(pokemonName) {
 // auto-update set details on select
 $(".set-selector").change(function () {
 	var defaultIvs = 31;
-	if (gen == 3)
+	if (gen == 3 || gen == 4)
 	{
 		if($(this)[0].parentElement.id == "p2")
 		{
