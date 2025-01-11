@@ -215,7 +215,6 @@ $(document).ready(function () {
 
 	$("#fieldToggle").click(function () {
 		var fieldPanel = $("#fieldPanel");
-		console.log(fieldPanel)
 		var oldValue = fieldPanel.css('display');
 		fieldPanel.css('display', oldValue == 'none' ? 'inline-block' : 'none');
 	});

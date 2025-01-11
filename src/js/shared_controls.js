@@ -72,7 +72,7 @@ function legacyStatToStat(st) {
 // input field validation
 var bounds = {
 	"level": [0, 100],
-	"ivsAll":[0, 31],
+	"ivsAll": [0, 31],
 	"base": [1, 255],
 	"evs": [0, 252],
 	"ivs": [0, 31],
@@ -124,7 +124,7 @@ $(".level").bind("keyup change", function () {
 // auto-calc stats and current HP on change
 $(".ivsAll").bind("keyup change", function () {
 	var newValue = $(this).val();
-    console.log("The new value of .ivsAll is: " + newValue);
+	console.log("The new value of .ivsAll is: " + newValue);
 	var poke = $(this).closest(".poke-info");
 	setIvs(poke, newValue);
 	calcHP(poke);
@@ -209,9 +209,9 @@ function getForcedTeraType(pokemonName) {
 
 function getHPDVs(poke) {
 	return (~~poke.find(".at .dvs").val() % 2) * 8 +
-(~~poke.find(".df .dvs").val() % 2) * 4 +
-(~~poke.find(".sp .dvs").val() % 2) * 2 +
-(~~poke.find(gen === 1 ? ".sl .dvs" : ".sa .dvs").val() % 2);
+		(~~poke.find(".df .dvs").val() % 2) * 4 +
+		(~~poke.find(".sp .dvs").val() % 2) * 2 +
+		(~~poke.find(gen === 1 ? ".sl .dvs" : ".sa .dvs").val() % 2);
 }
 
 function calcStats(poke) {
@@ -607,14 +607,10 @@ function smogonAnalysis(pokemonName) {
 // auto-update set details on select
 $(".set-selector").change(function () {
 	var defaultIvs = 31;
-	if (gen == 3 || gen == 4)
-	{
-		if($(this)[0].parentElement.id == "p2")
-		{
+	if (gen == 3 || gen == 4) {
+		if ($(this)[0].parentElement.id == "p2") {
 			defaultIvs = document.getElementById("ivsR1").value;
-		}
-		else
-		{
+		} else {
 			defaultIvs = document.getElementById("ivsL1").value;
 		}
 	}
@@ -626,8 +622,8 @@ $(".set-selector").change(function () {
 	if (pokemon) {
 		var pokeObj = $(this).closest(".poke-info");
 		var isAutoTera =
-		(startsWith(pokemonName, "Ogerpon") && endsWith(pokemonName, "Tera")) ||
-		pokemonName === 'Terapagos-Stellar';
+			(startsWith(pokemonName, "Ogerpon") && endsWith(pokemonName, "Tera")) ||
+			pokemonName === 'Terapagos-Stellar';
 		if (stickyMoves.getSelectedSide() === pokeObj.prop("id")) {
 			stickyMoves.clearStickyMove();
 		}
@@ -1287,7 +1283,7 @@ function calcHP(poke) {
 	$currentHP.attr('data-set', true);
 }
 
-function setIvs(poke, ivAll){
+function setIvs(poke, ivAll) {
 	for (var i = 0; i < LEGACY_STATS[gen].length; i++) {
 		var statName = LEGACY_STATS[gen][i];
 		poke.find("." + statName).find(".ivs").val(ivAll);
@@ -1446,7 +1442,7 @@ $(".gen").change(function () {
 			params.sort();
 			var path = window.location.pathname + '?' + params;
 			window.history.pushState({}, document.title, path);
-			gtag('config', 'UA-26211653-3', {'page_path': path});
+			gtag('config', 'UA-26211653-3', { 'page_path': path });
 		}
 	}
 	genWasChanged = true;
@@ -1649,10 +1645,10 @@ var stickyMoves = (function () {
 function isPokeInfoGrounded(pokeInfo) {
 	var teraType = pokeInfo.find(".teraToggle").is(":checked") ? pokeInfo.find(".teraType").val() : undefined;
 	return $("#gravity").prop("checked") || (
-		  teraType ? teraType !== "Flying" : pokeInfo.find(".type1").val() !== "Flying" &&
-        teraType ? teraType !== "Flying" : pokeInfo.find(".type2").val() !== "Flying" &&
-        pokeInfo.find(".ability").val() !== "Levitate" &&
-        pokeInfo.find(".item").val() !== "Air Balloon"
+		teraType ? teraType !== "Flying" : pokeInfo.find(".type1").val() !== "Flying" &&
+			teraType ? teraType !== "Flying" : pokeInfo.find(".type2").val() !== "Flying" &&
+			pokeInfo.find(".ability").val() !== "Levitate" &&
+		pokeInfo.find(".item").val() !== "Air Balloon"
 	);
 }
 
