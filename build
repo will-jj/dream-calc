@@ -46,8 +46,19 @@ function cpdir(src, dest) {
 			let contents = fs.readFileSync(path.join(src, file), 'utf8').replace(/^exports.* = void 0;$/gm, '');
 			// Minify the sets so we save bandwith
 			if (src === 'src/js/data/sets') {
-				//const brkOpenIdx = contents.indexOf('{');
-				//contents = `${contents.slice(0, brkOpenIdx)}${JSON.stringify(JSON.parse(contents.slice(brkOpenIdx, -2)))};`
+				// Find the index of the first '{' and the last '}'
+				const brkOpenIdx = contents.indexOf('{');
+				const brkCloseIdx = contents.lastIndexOf('}');
+
+				// Extract the variable declaration part and the JSON part
+				const varDeclaration = contents.slice(0, brkOpenIdx);
+				const jsonContent = contents.slice(brkOpenIdx, brkCloseIdx + 1);
+
+				// Minify the JSON content
+				const minifiedJson = JSON.stringify(JSON.parse(jsonContent));
+
+				// Reconstruct the contents
+				contents = `${varDeclaration}${minifiedJson};`;
 			}
 			fs.writeFileSync(path.join(dest, file), contents);
 		} else {
