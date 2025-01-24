@@ -105,6 +105,7 @@ $("input:radio[name='format']").change(function () {
 	$(".format-specific").not("." + gameType.toLowerCase()).hide();
 });
 
+var defaultIvs = 31;
 var defaultLevel = 100;
 $("input:radio[name='defaultLevel']").change(function () {
 	defaultLevel = $("input:radio[name='defaultLevel']:checked").val();
@@ -611,7 +612,7 @@ function smogonAnalysis(pokemonName) {
 
 // auto-update set details on select
 $(".set-selector").change(function () {
-	var defaultIvs = 31;
+	defaultIvs = 31;
 	if (gen == 3 || gen == 4) {
 		if ($(this)[0].parentElement.id == "p2") {
 			defaultIvs = document.getElementById("ivsR1").value;
