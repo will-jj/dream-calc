@@ -529,7 +529,7 @@ $(".move-selector").change(function () {
 		var pokeObj = $(this).closest(".poke-info");
 		for (var i = 0; i < LEGACY_STATS[gen].length; i++) {
 			var legacyStat = LEGACY_STATS[gen][i];
-			pokeObj.find("." + legacyStat + " .ivs").val(31);
+			pokeObj.find("." + legacyStat + " .ivs").val(defaultIvs);
 			pokeObj.find("." + legacyStat + " .dvs").val(15);
 		}
 	}
