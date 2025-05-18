@@ -78,7 +78,8 @@ var SETDEX_ADV =
         "nature": "Timid",
         "item": "Black Glasses",
         "isCustomSet": true
-        },
+        }
+	 },
     "Aipom": {
         "Aipom1 [A]": {
         "evs": {
