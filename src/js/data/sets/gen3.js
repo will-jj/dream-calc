@@ -6090,7 +6090,7 @@ var SETDEX_ADV =
         "isCustomSet": true
         }
     },
-    "Farfetch'd": {
+    "Farfetch’d": {
         "Farfetch’d1 [A]": {
         "evs": {
             "hp": 0,
