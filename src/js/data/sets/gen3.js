@@ -8398,17 +8398,17 @@ var SETDEX_ADV =
     "Hariyama2 [D]": {
         "evs": {
             "hp": 0,
-            "at": 0,
-            "df": 255,
+            "at": 170,
+            "df": 170,
             "sa": 0,
-            "sd": 255,
+            "sd": 170,
             "sp": 0
         },
         "moves": [
-            "Fake Out",
+            "Foresight",
             "Cross Chop",
-            "Knock Off",
-            "Rock Tomb"
+            "Rock Tomb",
+            "Body Slam"
         ],
         "nature": "Adamant",
         "item": "Figy Berry",
@@ -8420,7 +8420,26 @@ var SETDEX_ADV =
             "at": 170,
             "df": 170,
             "sa": 0,
-            "sd": 170,
+            "sd": 0,
+            "sp": 170
+        },
+        "moves": [
+            "Fake Out",
+            "Brick Break",
+            "Knock Off",
+            "Focus Punch"
+        ],
+        "nature": "Adamant",
+        "item": "Aspear Berry",
+        "isCustomSet": true
+        },
+    "Hariyama4 [D]": {
+        "evs": {
+            "hp": 0,
+            "at": 0,
+            "df": 255,
+            "sa": 0,
+            "sd": 255,
             "sp": 0
         },
         "moves": [
@@ -8431,25 +8450,6 @@ var SETDEX_ADV =
         ],
         "nature": "Adamant",
         "item": "Chesto Berry",
-        "isCustomSet": true
-        },
-    "Hariyama4 [D]": {
-        "evs": {
-            "hp": 0,
-            "at": 255,
-            "df": 0,
-            "sa": 0,
-            "sd": 0,
-            "sp": 255
-        },
-        "moves": [
-            "Bulk Up",
-            "Reversal",
-            "Rock Slide",
-            "Endure"
-        ],
-        "nature": "Jolly",
-        "item": "Salac Berry",
         "isCustomSet": true
         },
     "Hariyama5 [E]": {
@@ -8503,32 +8503,13 @@ var SETDEX_ADV =
             "Bulk Up",
             "Cross Chop",
             "Rock Slide",
-            "Substitute"
+            "Double-Edge"
         ],
         "nature": "Jolly",
         "item": "Salac Berry",
         "isCustomSet": true
         },
     "Hariyama8 [E]": {
-        "evs": {
-            "hp": 0,
-            "at": 170,
-            "df": 170,
-            "sa": 0,
-            "sd": 170,
-            "sp": 0
-        },
-        "moves": [
-            "Foresight",
-            "Cross Chop",
-            "Rock Slide",
-            "Body Slam"
-        ],
-        "nature": "Adamant",
-        "item": "Lum Berry",
-        "isCustomSet": true
-        },
-    "Hariyama9 [E]": {
         "evs": {
             "hp": 0,
             "at": 255,
@@ -8547,7 +8528,7 @@ var SETDEX_ADV =
         "item": "Choice Band",
         "isCustomSet": true
         },
-    "Hariyama10 [E]": {
+    "Hariyama9 [E]": {
         "evs": {
             "hp": 0,
             "at": 170,
@@ -8566,7 +8547,7 @@ var SETDEX_ADV =
         "item": "Black Belt",
         "isCustomSet": true
         },
-    "Hariyama11 [E]": {
+    "Hariyama10 [E]": {
         "evs": {
             "hp": 0,
             "at": 170,
@@ -8576,13 +8557,32 @@ var SETDEX_ADV =
             "sp": 0
         },
         "moves": [
-            "Focus Punch",
+            "Counter",
             "Revenge",
             "Rock Slide",
-            "Counter"
+            "Focus Punch"
         ],
         "nature": "Adamant",
         "item": "Black Belt",
+        "isCustomSet": true
+        },
+    "Hariyama11 [E]": {
+        "evs": {
+            "hp": 0,
+            "at": 255,
+            "df": 0,
+            "sa": 0,
+            "sd": 0,
+            "sp": 255
+        },
+        "moves": [
+            "Substitute",
+            "Reversal",
+            "Rock Slide",
+            "Focus Punch"
+        ],
+        "nature": "Jolly",
+        "item": "Salac Berry",
         "isCustomSet": true
         },
     "Hariyama12 [E]": {
@@ -8595,10 +8595,10 @@ var SETDEX_ADV =
             "sp": 0
         },
         "moves": [
-            "Focus Punch",
+            "Substitute",
             "Brick Break",
             "Rock Slide",
-            "Substitute"
+            "Focus Punch"
         ],
         "nature": "Adamant",
         "item": "Liechi Berry",
@@ -11329,7 +11329,7 @@ var SETDEX_ADV =
             "Recover",
             "Refresh"
         ],
-        "nature": "Calm",
+        "nature": "Careful",
         "item": "Mail",
         "isCustomSet": true
         },
@@ -14416,21 +14416,21 @@ var SETDEX_ADV =
     "Misdreavus": {
         "Misdreavus1 [C]": {
         "evs": {
-            "hp": 0,
-            "at": 255,
+            "hp": 255,
+            "at": 0,
             "df": 0,
             "sa": 0,
             "sd": 0,
             "sp": 255
         },
         "moves": [
-            "Aerial Ace",
-            "Shadow Ball",
-            "Taunt",
-            "Imprison"
+            "Substitute",
+            "Protect",
+            "Torment",
+            "Spite"
         ],
-        "nature": "Jolly",
-        "item": "Spell Tag",
+        "nature": "Timid",
+        "item": "Leftovers",
         "isCustomSet": true
         },
     "Misdreavus2 [C]": {
@@ -14443,72 +14443,35 @@ var SETDEX_ADV =
             "sp": 0
         },
         "moves": [
-            "Rain Dance",
-            "Thief",
-            "Thunder",
-            "Psychic"
+            "Imprison",
+            "Mimic",
+            "Toxic",
+            "Rest"
         ],
         "nature": "Calm",
+        "item": "Chesto Berry",
         "isCustomSet": true
         },
     "Misdreavus3 [D]": {
         "evs": {
-            "hp": 255,
-            "at": 0,
+            "hp": 0,
+            "at": 255,
             "df": 0,
             "sa": 0,
             "sd": 0,
             "sp": 255
         },
         "moves": [
-            "Destiny Bond",
-            "Sunny Day",
-            "Thunderbolt",
-            "Psychic"
+            "Imprison",
+            "Shadow Ball",
+            "Taunt",
+            "Aerial Ace"
         ],
-        "nature": "Timid",
-        "item": "Lum Berry",
+        "nature": "Jolly",
+        "item": "Sitrus Berry",
         "isCustomSet": true
         },
     "Misdreavus4 [D]": {
-        "evs": {
-            "hp": 0,
-            "at": 0,
-            "df": 0,
-            "sa": 255,
-            "sd": 0,
-            "sp": 255
-        },
-        "moves": [
-            "Destiny Bond",
-            "Endure",
-            "Thunderbolt",
-            "Psychic"
-        ],
-        "nature": "Modest",
-        "item": "Salac Berry",
-        "isCustomSet": true
-        },
-    "Misdreavus5 [D]": {
-        "evs": {
-            "hp": 0,
-            "at": 0,
-            "df": 0,
-            "sa": 255,
-            "sd": 0,
-            "sp": 255
-        },
-        "moves": [
-            "Substitute",
-            "Calm Mind",
-            "Thunderbolt",
-            "Psychic"
-        ],
-        "nature": "Timid",
-        "item": "Petaya Berry",
-        "isCustomSet": true
-        },
-    "Misdreavus6 [D]": {
         "evs": {
             "hp": 0,
             "at": 0,
@@ -14525,6 +14488,44 @@ var SETDEX_ADV =
         ],
         "nature": "Calm",
         "item": "Lum Berry",
+        "isCustomSet": true
+        },
+    "Misdreavus5 [D]": {
+        "evs": {
+            "hp": 0,
+            "at": 0,
+            "df": 0,
+            "sa": 255,
+            "sd": 0,
+            "sp": 255
+        },
+        "moves": [
+            "Destiny Bond",
+            "Hidden Power Dark",
+            "Thunderbolt",
+            "Psychic"
+        ],
+        "nature": "Timid",
+        "item": "Lum Berry",
+        "isCustomSet": true
+        },
+    "Misdreavus6 [D]": {
+        "evs": {
+            "hp": 0,
+            "at": 0,
+            "df": 0,
+            "sa": 255,
+            "sd": 0,
+            "sp": 255
+        },
+        "moves": [
+            "Substitute",
+            "Calm Mind",
+            "Thunderbolt",
+            "Psychic"
+        ],
+        "nature": "Timid",
+        "item": "Petaya Berry",
         "isCustomSet": true
         }
     },
