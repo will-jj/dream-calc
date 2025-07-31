@@ -7922,7 +7922,7 @@ var SETDEX_ADV =
         "moves": [
             "Rock Slide",
             "Thunder Wave",
-            "Smelling Salt",
+            "Smelling Salts",
             "Brick Break"
         ],
         "nature": "Adamant",
