@@ -241,6 +241,12 @@ export function calculateBasePowerADV(
     bp = 60;
     desc.moveName = 'Swift';
     break;
+  case 'Smelling Salts':
+    if (defender.hasStatus('par')) {
+      bp = move.bp * 2;
+      desc.moveBP = bp;
+    }
+    break;
   case 'Triple Kick':
     bp = hit * 10;
     desc.moveBP = move.hits === 2 ? 30 : move.hits === 3 ? 60 : 10;
