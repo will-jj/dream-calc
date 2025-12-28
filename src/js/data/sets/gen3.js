@@ -38,7 +38,7 @@ var SETDEX_ADV =
         "nature": "Timid",
         "item": "Lum Berry",
         "isCustomSet": true
-        }
+        },
         "(Lv. 5) Abra1 [Z]": {
         "evs": {
             "hp": 0,
@@ -4462,7 +4462,7 @@ var SETDEX_ADV =
         "nature": "Modest",
         "item": "Lum Berry",
         "isCustomSet": true
-        }
+        },
         "(Lv. 5) Chinchou1 [Z]": {
         "evs": {
             "hp": 0,
@@ -4616,7 +4616,7 @@ var SETDEX_ADV =
         "nature": "Bold",
         "item": "Deep Sea Scale",
         "isCustomSet": true
-        }
+        },
         "(Lv. 5) Clamperl1 [Z]": {
         "evs": {
             "hp": 255,
@@ -5666,7 +5666,7 @@ var SETDEX_ADV =
         "nature": "Naive",
         "item": "Thick Club",
         "isCustomSet": true
-        }
+        },
         "(Lv. 5) Cubone1 [Z]": {
         "evs": {
             "hp": 0,
@@ -7313,7 +7313,7 @@ var SETDEX_ADV =
         "nature": "Bold",
         "item": "Lum Berry",
         "isCustomSet": true
-        }
+        },
         "(Lv. 5) Duskull1 [Y]": {
         "evs": {
             "hp": 255,
@@ -8435,7 +8435,7 @@ var SETDEX_ADV =
         "nature": "Careful",
         "item": "Leppa Berry",
         "isCustomSet": true
-        }
+        },
         "(Lv. 5) Exeggcute1 [Y]": {
         "evs": {
             "hp": 255,
@@ -12774,7 +12774,7 @@ var SETDEX_ADV =
         "nature": "Timid",
         "item": "White Herb",
         "isCustomSet": true
-        }
+        },
         "(Lv. 5) Houndour1 [Z]": {
         "evs": {
             "hp": 0,
@@ -15870,7 +15870,7 @@ var SETDEX_ADV =
         "nature": "Quiet",
         "item": "Leppa Berry",
         "isCustomSet": true
-        }
+        },
         "(Lv. 5) Lileep1 [Y]": {
         "evs": {
             "hp": 170,
@@ -21018,7 +21018,7 @@ var SETDEX_ADV =
         "nature": "Adamant",
         "item": "Salac Berry",
         "isCustomSet": true
-        }
+        },
         "(Lv. 5) Onix1 [X]": {
         "evs": {
             "hp": 0,
@@ -22039,7 +22039,7 @@ var SETDEX_ADV =
         "nature": "Timid",
         "item": "White Herb",
         "isCustomSet": true
-        }
+        },
         "(Lv. 5) Ponyta1 [Y]": {
         "evs": {
             "hp": 0,
@@ -22233,7 +22233,7 @@ var SETDEX_ADV =
         "nature": "Relaxed",
         "item": "Mail",
         "isCustomSet": true
-        }
+        },
         "(Lv. 5) Porygon1 [Z]": {
         "evs": {
             "hp": 255,
