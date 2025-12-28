@@ -34815,4 +34815,4 @@ var SETDEX_ADV =
         "item": "Choice Band",
         "isCustomSet": true
     }
-}
+};
