@@ -39,26 +39,25 @@ var SETDEX_ADV =
         "item": "Lum Berry",
         "isCustomSet": true
         }
-    },
-    "(Lv. 5) Abra1 [Z]": {
-    "evs": {
-        "hp": 0,
-        "at": 0,
-        "df": 0,
-        "sa": 255,
-        "sd": 0,
-        "sp": 255
-    },
-    "moves": [
-        "Psychic",
-        "Thief",
-        "Ice Punch",
-        "Thunder Punch"
-    ],
-    "nature": "Timid",
-    "item": "Lum Berry",
-    "isCustomSet": true
-    },
+        "(Lv. 5) Abra1 [Z]": {
+        "evs": {
+            "hp": 0,
+            "at": 0,
+            "df": 0,
+            "sa": 255,
+            "sd": 0,
+            "sp": 255
+        },
+        "moves": [
+            "Psychic",
+            "Thief",
+            "Ice Punch",
+            "Thunder Punch"
+        ],
+        "nature": "Timid",
+        "item": "Lum Berry",
+        "isCustomSet": true
+        },
     "(Lv. 5) Abra2 [Z]": {
         "evs": {
             "hp": 0,
@@ -153,7 +152,8 @@ var SETDEX_ADV =
         "nature": "Timid",
         "item": "Salac Berry",
         "isCustomSet": true
-        },
+        }
+    },
     "Absol": {
         "Absol1 [A]": {
         "evs": {
@@ -1118,7 +1118,8 @@ var SETDEX_ADV =
         "nature": "Impish",
         "item": "Oran Berry",
         "isCustomSet": true
-        },
+        }
+    },
     "Arbok": {
         "Arbok1 [A]": {
         "evs": {
@@ -1507,7 +1508,8 @@ var SETDEX_ADV =
         "nature": "Jolly",
         "item": "Salac Berry",
         "isCustomSet": true
-        },
+        }
+    },
     "Articuno": {
         "Articuno1 [D]": {
         "evs": {
@@ -1892,7 +1894,8 @@ var SETDEX_ADV =
         "nature": "Careful",
         "item": "Oran Berry",
         "isCustomSet": true
-        },
+        }
+    },
     "Bagon": {
         "(Lv. 5) Bagon1 [Y]": {
         "evs": {
@@ -2007,7 +2010,8 @@ var SETDEX_ADV =
         "nature": "Careful",
         "item": "Oran Berry",
         "isCustomSet": true
-        },
+        }
+    },
     "Baltoy": {
         "(Lv. 5) Baltoy1 [Y]": {
         "evs": {
@@ -2122,7 +2126,8 @@ var SETDEX_ADV =
         "nature": "Careful",
         "item": "Oran Berry",
         "isCustomSet": true
-        },
+        }
+    },
     "Banette": {
         "Banette1 [A]": {
         "evs": {
@@ -2277,7 +2282,8 @@ var SETDEX_ADV =
         "nature": "Jolly",
         "item": "Leftovers",
         "isCustomSet": true
-        },
+        }
+    },
     "Bayleef": {
         "Bayleef1 [A]": {
         "evs": {
@@ -2417,7 +2423,8 @@ var SETDEX_ADV =
         "nature": "Adamant",
         "item": "Choice Band",
         "isCustomSet": true
-        },
+        }
+    },
     "Bellossom": {
         "Bellossom1 [A]": {
         "evs": {
@@ -2534,7 +2541,8 @@ var SETDEX_ADV =
         "nature": "Bold",
         "item": "Oran Berry",
         "isCustomSet": true
-        },
+        }
+    },
     "Blastoise": {
         "Blastoise1 [B]": {
         "evs": {
@@ -3227,7 +3235,8 @@ var SETDEX_ADV =
         "nature": "Lonely",
         "item": "Salac Berry",
         "isCustomSet": true
-        },
+        }
+    },
     "Butterfree": {
         "Butterfree1 [A]": {
         "evs": {
@@ -3382,7 +3391,8 @@ var SETDEX_ADV =
         "nature": "Timid",
         "item": "Salac Berry",
         "isCustomSet": true
-        },
+        }
+    },
     "Cacturne": {
         "Cacturne1 [A]": {
         "evs": {
@@ -3615,7 +3625,8 @@ var SETDEX_ADV =
         "nature": "Timid",
         "item": "Petaya Berry",
         "isCustomSet": true
-        },
+        }
+    },
     "Castform": {
         "Castform1 [A]": {
         "evs": {
@@ -3675,7 +3686,8 @@ var SETDEX_ADV =
         "nature": "Careful",
         "item": "Mental Herb",
         "isCustomSet": true
-        },
+        }
+    },
     "Celebi": {
         "Celebi1 [F]": {
         "evs": {
@@ -4290,7 +4302,8 @@ var SETDEX_ADV =
         "nature": "Modest",
         "item": "White Herb",
         "isCustomSet": true
-        },
+        }
+    },
     "Charmeleon": {
         "Charmeleon1 [A]": {
         "evs": {
@@ -4369,7 +4382,8 @@ var SETDEX_ADV =
         "nature": "Timid",
         "item": "Leppa Berry",
         "isCustomSet": true
-        },
+        }
+    },
     "Chimecho": {
         "Chimecho1 [A]": {
         "evs": {
@@ -4449,7 +4463,6 @@ var SETDEX_ADV =
         "item": "Lum Berry",
         "isCustomSet": true
         }
-    },
         "(Lv. 5) Chinchou1 [Z]": {
         "evs": {
             "hp": 0,
@@ -4563,7 +4576,8 @@ var SETDEX_ADV =
         "nature": "Modest",
         "item": "Petaya Berry",
         "isCustomSet": true
-        },
+        }
+    },
     "Clamperl": {
         "Clamperl1 [A]": {
         "evs": {
@@ -4603,7 +4617,6 @@ var SETDEX_ADV =
         "item": "Deep Sea Scale",
         "isCustomSet": true
         }
-    },
         "(Lv. 5) Clamperl1 [Z]": {
         "evs": {
             "hp": 255,
@@ -4717,7 +4730,8 @@ var SETDEX_ADV =
         "nature": "Bold",
         "item": "Deep Sea Scale",
         "isCustomSet": true
-        },
+        }
+    },
     "Claydol": {
         "Claydol1 [D]": {
         "evs": {
@@ -5102,7 +5116,8 @@ var SETDEX_ADV =
         "nature": "Bold",
         "item": "Leftovers",
         "isCustomSet": true
-        },
+        }
+    },
     "Cloyster": {
         "Cloyster1 [B]": {
         "evs": {
@@ -5297,7 +5312,8 @@ var SETDEX_ADV =
         "nature": "Adamant",
         "item": "Choice Band",
         "isCustomSet": true
-        },
+        }
+    },
     "Corsola": {
         "Corsola1 [A]": {
         "evs": {
@@ -5651,7 +5667,6 @@ var SETDEX_ADV =
         "item": "Thick Club",
         "isCustomSet": true
         }
-    },
         "(Lv. 5) Cubone1 [Z]": {
         "evs": {
             "hp": 0,
@@ -5765,7 +5780,8 @@ var SETDEX_ADV =
         "nature": "Impish",
         "item": "Thick Club",
         "isCustomSet": true
-        },
+        }
+    },
     "Cyndaquil": {
         "(Lv. 5) Cyndaquil1 [X]": {
         "evs": {
@@ -5804,7 +5820,8 @@ var SETDEX_ADV =
         "nature": "Timid",
         "item": "White Herb",
         "isCustomSet": true
-        },
+        }
+    },
     "Delcatty": {
         "Delcatty1 [A]": {
         "evs": {
@@ -6076,7 +6093,8 @@ var SETDEX_ADV =
         "nature": "Jolly",
         "item": "Choice Band",
         "isCustomSet": true
-        },
+        }
+    },
     "Ditto": {
         "Ditto1 [A]": {
         "evs": {
@@ -6441,7 +6459,8 @@ var SETDEX_ADV =
         "nature": "Jolly",
         "item": "Starf Berry",
         "isCustomSet": true
-        },
+        }
+    },
     "Donphan": {
         "Donphan1 [C]": {
         "evs": {
@@ -6904,7 +6923,8 @@ var SETDEX_ADV =
         "nature": "Adamant",
         "item": "Silk Scarf",
         "isCustomSet": true
-        },
+        }
+    },
     "Drowzee": {
         "(Lv. 5) Drowzee1 [X]": {
         "evs": {
@@ -6981,7 +7001,8 @@ var SETDEX_ADV =
         "nature": "Calm",
         "item": "Leftovers",
         "isCustomSet": true
-        },
+        }
+    },
     "Dugtrio": {
         "Dugtrio1 [C]": {
         "evs": {
@@ -7293,7 +7314,6 @@ var SETDEX_ADV =
         "item": "Lum Berry",
         "isCustomSet": true
         }
-    },
         "(Lv. 5) Duskull1 [Y]": {
         "evs": {
             "hp": 255,
@@ -7407,7 +7427,8 @@ var SETDEX_ADV =
         "nature": "Relaxed",
         "item": "Oran Berry",
         "isCustomSet": true
-        },
+        }
+    },
     "Dustox": {
         "Dustox1 [A]": {
         "evs": {
@@ -7524,7 +7545,8 @@ var SETDEX_ADV =
         "nature": "Careful",
         "item": "Leftovers",
         "isCustomSet": true
-        },
+        }
+    },
     "Ekans": {
         "(Lv. 5) Ekans1 [X]": {
         "evs": {
@@ -7563,7 +7585,8 @@ var SETDEX_ADV =
         "nature": "Bold",
         "item": "Chesto Berry",
         "isCustomSet": true
-        },
+        }
+    },
     "Electabuzz": {
         "Electabuzz1 [B]": {
         "evs": {
@@ -7680,7 +7703,8 @@ var SETDEX_ADV =
         "nature": "Timid",
         "item": "Petaya Berry",
         "isCustomSet": true
-        },
+        }
+    },
     "Electrode": {
         "Electrode1 [C]": {
         "evs": {
@@ -7911,7 +7935,8 @@ var SETDEX_ADV =
         "nature": "Timid",
         "item": "Magnet",
         "isCustomSet": true
-        },
+        }
+    },
     "Entei": {
         "Entei1 [E]": {
         "evs": {
@@ -8411,7 +8436,6 @@ var SETDEX_ADV =
         "item": "Leppa Berry",
         "isCustomSet": true
         }
-    },
         "(Lv. 5) Exeggcute1 [Y]": {
         "evs": {
             "hp": 255,
@@ -8525,7 +8549,8 @@ var SETDEX_ADV =
         "nature": "Relaxed",
         "item": "Oran Berry",
         "isCustomSet": true
-        },
+        }
+    },
     "Exeggutor": {
         "Exeggutor1 [C]": {
         "evs": {
@@ -8876,7 +8901,8 @@ var SETDEX_ADV =
         "nature": "Timid",
         "item": "Lum Berry",
         "isCustomSet": true
-        },
+        }
+    },
     "Feraligatr": {
         "Feraligatr1 [B]": {
         "evs": {
@@ -9917,7 +9943,8 @@ var SETDEX_ADV =
         "nature": "Jolly",
         "item": "Choice Band",
         "isCustomSet": true
-        },
+        }
+    },
     "Gengar": {
         "Gengar1 [E]": {
         "evs": {
@@ -10223,7 +10250,8 @@ var SETDEX_ADV =
         "nature": "Adamant",
         "item": "Choice Band",
         "isCustomSet": true
-        },
+        }
+    },
     "Girafarig": {
         "Girafarig1 [A]": {
         "evs": {
@@ -10574,7 +10602,8 @@ var SETDEX_ADV =
         "nature": "Adamant",
         "item": "Liechi Berry",
         "isCustomSet": true
-        },
+        }
+    },
     "Golduck": {
         "Golduck1 [B]": {
         "evs": {
@@ -11041,7 +11070,8 @@ var SETDEX_ADV =
         "nature": "Sassy",
         "item": "Chesto Berry",
         "isCustomSet": true
-        },
+        }
+    },
     "Grovyle": {
         "Grovyle1 [A]": {
         "evs": {
@@ -11158,7 +11188,8 @@ var SETDEX_ADV =
         "nature": "Timid",
         "item": "White Herb",
         "isCustomSet": true
-        },
+        }
+    },
     "Grumpig": {
         "Grumpig1 [B]": {
         "evs": {
@@ -11313,7 +11344,8 @@ var SETDEX_ADV =
         "nature": "Adamant",
         "item": "Oran Berry",
         "isCustomSet": true
-        },
+        }
+    },
     "Gyarados": {
         "Gyarados1 [D]": {
         "evs": {
@@ -12316,7 +12348,8 @@ var SETDEX_ADV =
         "nature": "Careful",
         "item": "Leftovers",
         "isCustomSet": true
-        },
+        }
+    },
     "Hoppip": {
         "(Lv. 5) Hoppip1 [X]": {
         "evs": {
@@ -12393,7 +12426,8 @@ var SETDEX_ADV =
         "nature": "Timid",
         "item": "Leppa Berry",
         "isCustomSet": true
-        },
+        }
+    },
     "Horsea": {
         "(Lv. 5) Horsea1 [X]": {
         "evs": {
@@ -12470,7 +12504,8 @@ var SETDEX_ADV =
         "nature": "Lonely",
         "item": "Liechi Berry",
         "isCustomSet": true
-        },
+        }
+    },
     "Houndoom": {
         "Houndoom1 [D]": {
         "evs": {
@@ -12740,7 +12775,6 @@ var SETDEX_ADV =
         "item": "White Herb",
         "isCustomSet": true
         }
-    },
         "(Lv. 5) Houndour1 [Z]": {
         "evs": {
             "hp": 0,
@@ -12854,7 +12888,8 @@ var SETDEX_ADV =
         "nature": "Mild",
         "item": "Salac Berry",
         "isCustomSet": true
-        },
+        }
+    },
     "Huntail": {
         "Huntail1 [A]": {
         "evs": {
@@ -13049,7 +13084,8 @@ var SETDEX_ADV =
         "nature": "Impish",
         "item": "Silk Scarf",
         "isCustomSet": true
-        },
+        }
+    },
     "Illumise": {
         "Illumise1 [A]": {
         "evs": {
@@ -14012,7 +14048,8 @@ var SETDEX_ADV =
         "nature": "Adamant",
         "item": "Salac Berry",
         "isCustomSet": true
-        },
+        }
+    },
     "Kabutops": {
         "Kabutops1 [A]": {
         "evs": {
@@ -14633,7 +14670,8 @@ var SETDEX_ADV =
         "nature": "Jolly",
         "item": "Oran Berry",
         "isCustomSet": true
-        },
+        }
+    },
     "Krabby": {
         "(Lv. 5) Krabby1 [X]": {
         "evs": {
@@ -14710,7 +14748,8 @@ var SETDEX_ADV =
         "nature": "Naive",
         "item": "Salac Berry",
         "isCustomSet": true
-        },
+        }
+    },
     "Lairon": {
         "Lairon1 [A]": {
         "evs": {
@@ -15211,7 +15250,8 @@ var SETDEX_ADV =
         "nature": "Adamant",
         "item": "Choice Band",
         "isCustomSet": true
-        },
+        }
+    },
     "Latias": {
         "Latias1 [F]": {
         "evs": {
@@ -15750,7 +15790,8 @@ var SETDEX_ADV =
         "nature": "Jolly",
         "item": "Silver Powder",
         "isCustomSet": true
-        },
+        }
+    },
     "Lickitung": {
         "Lickitung1 [A]": {
         "evs": {
@@ -15830,7 +15871,6 @@ var SETDEX_ADV =
         "item": "Leppa Berry",
         "isCustomSet": true
         }
-    },
         "(Lv. 5) Lileep1 [Y]": {
         "evs": {
             "hp": 170,
@@ -15944,7 +15984,8 @@ var SETDEX_ADV =
         "nature": "Sassy",
         "item": "Leftovers",
         "isCustomSet": true
-        },
+        }
+    },
     "Linoone": {
         "Linoone1 [C]": {
         "evs": {
@@ -16137,7 +16178,8 @@ var SETDEX_ADV =
         "nature": "Modest",
         "item": "Mystic Water",
         "isCustomSet": true
-        },
+        }
+    },
     "Loudred": {
         "Loudred1 [A]": {
         "evs": {
@@ -16758,7 +16800,8 @@ var SETDEX_ADV =
         "nature": "Adamant",
         "item": "Choice Band",
         "isCustomSet": true
-        },
+        }
+    },
     "Magby": {
         "(Lv. 5) Magby1 [Z]": {
         "evs": {
@@ -16873,7 +16916,8 @@ var SETDEX_ADV =
         "nature": "Timid",
         "item": "Oran Berry",
         "isCustomSet": true
-        },
+        }
+    },
     "Magcargo": {
         "Magcargo1 [A]": {
         "evs": {
@@ -16933,7 +16977,8 @@ var SETDEX_ADV =
         "nature": "Adamant",
         "item": "Mental Herb",
         "isCustomSet": true
-        },
+        }
+    },
     "Magmar": {
         "Magmar1 [B]": {
         "evs": {
@@ -17050,7 +17095,8 @@ var SETDEX_ADV =
         "nature": "Modest",
         "item": "Petaya Berry",
         "isCustomSet": true
-        },
+        }
+    },
     "Magneton": {
         "Magneton1 [C]": {
         "evs": {
@@ -17243,7 +17289,8 @@ var SETDEX_ADV =
         "nature": "Adamant",
         "item": "Aspear Berry",
         "isCustomSet": true
-        },
+        }
+    },
     "Manectric": {
         "Manectric1 [B]": {
         "evs": {
@@ -17398,7 +17445,8 @@ var SETDEX_ADV =
         "nature": "Adamant",
         "item": "Salac Berry",
         "isCustomSet": true
-        },
+        }
+    },
     "Mantine": {
         "Mantine1 [B]": {
         "evs": {
@@ -17553,7 +17601,8 @@ var SETDEX_ADV =
         "nature": "Bold",
         "item": "Lum Berry",
         "isCustomSet": true
-        },
+        }
+    },
     "Marowak": {
         "Marowak1 [C]": {
         "evs": {
@@ -18134,7 +18183,8 @@ var SETDEX_ADV =
         "nature": "Jolly",
         "item": "Choice Band",
         "isCustomSet": true
-        },
+        }
+    },
     "Meganium": {
         "Meganium1 [C]": {
         "evs": {
@@ -18327,7 +18377,8 @@ var SETDEX_ADV =
         "nature": "Jolly",
         "item": "Oran Berry",
         "isCustomSet": true
-        },
+        }
+    },
     "Metagross": {
         "Metagross1 [E]": {
         "evs": {
@@ -19754,7 +19805,8 @@ var SETDEX_ADV =
         "nature": "Timid",
         "item": "Salac Berry",
         "isCustomSet": true
-        },
+        }
+    },
     "Muk": {
         "Muk1 [B]": {
         "evs": {
@@ -19949,7 +20001,8 @@ var SETDEX_ADV =
         "nature": "Timid",
         "item": "Lum Berry",
         "isCustomSet": true
-        },
+        }
+    },
     "Nidoking": {
         "Nidoking1 [B]": {
         "evs": {
@@ -20182,7 +20235,8 @@ var SETDEX_ADV =
         "nature": "Quiet",
         "item": "Poison Barb",
         "isCustomSet": true
-        },
+        }
+    },
     "Nidoran-M": {
         "(Lv. 5) Nidoran-M1 [X]": {
         "evs": {
@@ -20259,7 +20313,8 @@ var SETDEX_ADV =
         "nature": "Jolly",
         "item": "Choice Band",
         "isCustomSet": true
-        },
+        }
+    },
     "Nincada": {
         "(Lv. 5) Nincada1 [W]": {
         "evs": {
@@ -20298,7 +20353,8 @@ var SETDEX_ADV =
         "nature": "Careful",
         "item": "Chesto Berry",
         "isCustomSet": true
-        },
+        }
+    },
     "Ninetales": {
         "Ninetales1 [B]": {
         "evs": {
@@ -20573,7 +20629,8 @@ var SETDEX_ADV =
         "nature": "Quiet",
         "item": "White Herb",
         "isCustomSet": true
-        },
+        }
+    },
     "Octillery": {
         "Octillery1 [A]": {
         "evs": {
@@ -20690,7 +20747,8 @@ var SETDEX_ADV =
         "nature": "Modest",
         "item": "Petaya Berry",
         "isCustomSet": true
-        },
+        }
+    },
     "Omanyte": {
         "(Lv. 5) Omanyte1 [Y]": {
         "evs": {
@@ -20805,7 +20863,8 @@ var SETDEX_ADV =
         "nature": "Modest",
         "item": "Oran Berry",
         "isCustomSet": true
-        },
+        }
+    },
     "Omastar": {
         "Omastar1 [C]": {
         "evs": {
@@ -20960,7 +21019,6 @@ var SETDEX_ADV =
         "item": "Salac Berry",
         "isCustomSet": true
         }
-    },
         "(Lv. 5) Onix1 [X]": {
         "evs": {
             "hp": 0,
@@ -21036,7 +21094,8 @@ var SETDEX_ADV =
         "nature": "Jolly",
         "item": "Choice Band",
         "isCustomSet": true
-        },
+        }
+    },
     "Paras": {
         "(Lv. 5) Paras1 [W]": {
         "evs": {
@@ -21075,7 +21134,8 @@ var SETDEX_ADV =
         "nature": "Modest",
         "item": "Chesto Berry",
         "isCustomSet": true
-        },
+        }
+    },
     "Parasect": {
         "Parasect1 [A]": {
         "evs": {
@@ -21272,7 +21332,8 @@ var SETDEX_ADV =
         "nature": "Jolly",
         "item": "Salac Berry",
         "isCustomSet": true
-        },
+        }
+    },
     "Pichu": {
         "(Lv. 5) Pichu1 [W]": {
         "evs": {
@@ -21311,7 +21372,8 @@ var SETDEX_ADV =
         "nature": "Timid",
         "item": "Petaya Berry",
         "isCustomSet": true
-        },
+        }
+    },
     "Pidgeot": {
         "Pidgeot1 [A]": {
         "evs": {
@@ -21428,7 +21490,8 @@ var SETDEX_ADV =
         "nature": "Adamant",
         "item": "Silk Scarf",
         "isCustomSet": true
-        },
+        }
+    },
     "Pikachu": {
         "Pikachu1 [A]": {
         "evs": {
@@ -21585,7 +21648,8 @@ var SETDEX_ADV =
         "nature": "Careful",
         "item": "Oran Berry",
         "isCustomSet": true
-        },
+        }
+    },
     "Pinsir": {
         "Pinsir1 [B]": {
         "evs": {
@@ -21857,7 +21921,8 @@ var SETDEX_ADV =
         "nature": "Jolly",
         "item": "Lum Berry",
         "isCustomSet": true
-        },
+        }
+    },
     "Poliwrath": {
         "Poliwrath1 [B]": {
         "evs": {
@@ -21975,7 +22040,6 @@ var SETDEX_ADV =
         "item": "White Herb",
         "isCustomSet": true
         }
-    },
         "(Lv. 5) Ponyta1 [Y]": {
         "evs": {
             "hp": 0,
@@ -22089,7 +22153,8 @@ var SETDEX_ADV =
         "nature": "Timid",
         "item": "White Herb",
         "isCustomSet": true
-        },
+        }
+    },
     "Poochyena": {
         "(Lv. 5) Poochyena1 [W]": {
         "evs": {
@@ -22128,7 +22193,8 @@ var SETDEX_ADV =
         "nature": "Timid",
         "item": "Black Glasses",
         "isCustomSet": true
-        },
+        }
+    },
     "Porygon": {
         "Porygon1 [A]": {
         "evs": {
@@ -22168,7 +22234,6 @@ var SETDEX_ADV =
         "item": "Mail",
         "isCustomSet": true
         }
-    },
         "(Lv. 5) Porygon1 [Z]": {
         "evs": {
             "hp": 255,
@@ -22282,7 +22347,8 @@ var SETDEX_ADV =
         "nature": "Sassy",
         "item": "Leftovers",
         "isCustomSet": true
-        },
+        }
+    },
     "Porygon2": {
         "Porygon2-1 [D]": {
         "evs": {
@@ -22667,7 +22733,8 @@ var SETDEX_ADV =
         "nature": "Timid",
         "item": "Petaya Berry",
         "isCustomSet": true
-        },
+        }
+    },
     "Pupitar": {
         "Pupitar1 [A]": {
         "evs": {
@@ -23288,7 +23355,8 @@ var SETDEX_ADV =
         "nature": "Modest",
         "item": "Salac Berry",
         "isCustomSet": true
-        },
+        }
+    },
     "Rapidash": {
         "Rapidash1 [B]": {
         "evs": {
@@ -23520,7 +23588,8 @@ var SETDEX_ADV =
         "nature": "Jolly",
         "item": "Liechi Berry",
         "isCustomSet": true
-        },
+        }
+    },
     "Regice": {
         "Regice1 [E]": {
         "evs": {
@@ -24365,7 +24434,8 @@ var SETDEX_ADV =
         "nature": "Naive",
         "item": "Mystic Water",
         "isCustomSet": true
-        },
+        }
+    },
     "Rhydon": {
         "Rhydon1 [C]": {
         "evs": {
@@ -24558,7 +24628,8 @@ var SETDEX_ADV =
         "nature": "Adamant",
         "item": "Choice Band",
         "isCustomSet": true
-        },
+        }
+    },
     "Roselia": {
         "Roselia1 [A]": {
         "evs": {
@@ -24945,7 +25016,8 @@ var SETDEX_ADV =
         "nature": "Adamant",
         "item": "Soft Sand",
         "isCustomSet": true
-        },
+        }
+    },
     "Sandslash": {
         "Sandslash1 [B]": {
         "evs": {
@@ -25416,7 +25488,8 @@ var SETDEX_ADV =
         "nature": "Rash",
         "item": "Lum Berry",
         "isCustomSet": true
-        },
+        }
+    },
     "Seel": {
         "(Lv. 5) Seel1 [X]": {
         "evs": {
@@ -25493,7 +25566,8 @@ var SETDEX_ADV =
         "nature": "Quiet",
         "item": "Oran Berry",
         "isCustomSet": true
-        },
+        }
+    },
     "Sentret": {
         "(Lv. 5) Sentret1 [W]": {
         "evs": {
@@ -25532,7 +25606,8 @@ var SETDEX_ADV =
         "nature": "Adamant",
         "item": "Choice Band",
         "isCustomSet": true
-        },
+        }
+    },
     "Seviper": {
         "Seviper1 [A]": {
         "evs": {
@@ -25921,7 +25996,8 @@ var SETDEX_ADV =
         "nature": "Quiet",
         "item": "Lum Berry",
         "isCustomSet": true
-        },
+        }
+    },
     "Shiftry": {
         "Shiftry1 [B]": {
         "evs": {
@@ -26038,7 +26114,8 @@ var SETDEX_ADV =
         "nature": "Bold",
         "item": "Oran Berry",
         "isCustomSet": true
-        },
+        }
+    },
     "Shuckle": {
         "Shuckle1 [A]": {
         "evs": {
@@ -26193,7 +26270,8 @@ var SETDEX_ADV =
         "nature": "Relaxed",
         "item": "Spell Tag",
         "isCustomSet": true
-        },
+        }
+    },
     "Skarmory": {
         "Skarmory1 [D]": {
         "evs": {
@@ -26540,7 +26618,8 @@ var SETDEX_ADV =
         "nature": "Adamant",
         "item": "Oran Berry",
         "isCustomSet": true
-        },
+        }
+    },
     "Slaking": {
         "Slaking1 [E]": {
         "evs": {
@@ -26808,7 +26887,8 @@ var SETDEX_ADV =
         "nature": "Adamant",
         "item": "Choice Band",
         "isCustomSet": true
-        },
+        }
+    },
     "Slowbro": {
         "Slowbro1 [B]": {
         "evs": {
@@ -27041,7 +27121,8 @@ var SETDEX_ADV =
         "nature": "Bold",
         "item": "Chesto Berry",
         "isCustomSet": true
-        },
+        }
+    },
     "Slugma": {
         "(Lv. 5) Slugma1 [W]": {
         "evs": {
@@ -27118,7 +27199,8 @@ var SETDEX_ADV =
         "nature": "Brave",
         "item": "Oran Berry",
         "isCustomSet": true
-        },
+        }
+    },
     "Smeargle": {
         "Smeargle1 [A]": {
         "evs": {
@@ -27424,7 +27506,8 @@ var SETDEX_ADV =
         "nature": "Bold",
         "item": "Oran Berry",
         "isCustomSet": true
-        },
+        }
+    },
     "Sneasel": {
         "Sneasel1 [A]": {
         "evs": {
@@ -27809,7 +27892,8 @@ var SETDEX_ADV =
         "nature": "Calm",
         "item": "Lum Berry",
         "isCustomSet": true
-        },
+        }
+    },
     "Snubbull": {
         "(Lv. 5) Snubbull1 [Z]": {
         "evs": {
@@ -27924,7 +28008,8 @@ var SETDEX_ADV =
         "nature": "Adamant",
         "item": "Choice Band",
         "isCustomSet": true
-        },
+        }
+    },
     "Solrock": {
         "Solrock1 [B]": {
         "evs": {
@@ -28041,7 +28126,8 @@ var SETDEX_ADV =
         "nature": "Jolly",
         "item": "Starf Berry",
         "isCustomSet": true
-        },
+        }
+    },
     "Spheal": {
         "(Lv. 5) Spheal1 [X]": {
         "evs": {
@@ -28080,7 +28166,8 @@ var SETDEX_ADV =
         "nature": "Timid",
         "item": "Oran Berry",
         "isCustomSet": true
-        },
+        }
+    },
     "Spinarak": {
         "(Lv. 5) Spinarak1 [W]": {
         "evs": {
@@ -28157,7 +28244,8 @@ var SETDEX_ADV =
         "nature": "Adamant",
         "item": "Poison Barb",
         "isCustomSet": true
-        },
+        }
+    },
     "Spinda": {
         "Spinda1 [A]": {
         "evs": {
@@ -28274,7 +28362,8 @@ var SETDEX_ADV =
         "nature": "Bold",
         "item": "Chesto Berry",
         "isCustomSet": true
-        },
+        }
+    },
     "Squirtle": {
         "(Lv. 5) Squirtle1 [X]": {
         "evs": {
@@ -28351,7 +28440,8 @@ var SETDEX_ADV =
         "nature": "Timid",
         "item": "Petaya Berry",
         "isCustomSet": true
-        },
+        }
+    },
     "Stantler": {
         "Stantler1 [A]": {
         "evs": {
@@ -28774,7 +28864,8 @@ var SETDEX_ADV =
         "nature": "Impish",
         "item": "Chesto Berry",
         "isCustomSet": true
-        },
+        }
+    },
     "Steelix": {
         "Steelix1 [C]": {
         "evs": {
@@ -29239,7 +29330,8 @@ var SETDEX_ADV =
         "nature": "Timid",
         "item": "Salac Berry",
         "isCustomSet": true
-        },
+        }
+    },
     "Surskit": {
         "(Lv. 5) Surskit1 [X]": {
         "evs": {
@@ -29278,7 +29370,8 @@ var SETDEX_ADV =
         "nature": "Modest",
         "item": "Oran Berry",
         "isCustomSet": true
-        },
+        }
+    },
     "Swablu": {
         "(Lv. 5) Swablu1 [X]": {
         "evs": {
@@ -29355,7 +29448,8 @@ var SETDEX_ADV =
         "nature": "Adamant",
         "item": "Liechi Berry",
         "isCustomSet": true
-        },
+        }
+    },
     "Swalot": {
         "Swalot1 [A]": {
         "evs": {
@@ -29856,7 +29950,8 @@ var SETDEX_ADV =
         "nature": "Sassy",
         "item": "Lum Berry",
         "isCustomSet": true
-        },
+        }
+    },
     "Taillow": {
         "(Lv. 5) Taillow1 [X]": {
         "evs": {
@@ -29933,7 +30028,8 @@ var SETDEX_ADV =
         "nature": "Jolly",
         "item": "Starf Berry",
         "isCustomSet": true
-        },
+        }
+    },
     "Tangela": {
         "Tangela1 [A]": {
         "evs": {
@@ -30280,7 +30376,8 @@ var SETDEX_ADV =
         "nature": "Adamant",
         "item": "Choice Band",
         "isCustomSet": true
-        },
+        }
+    },
     "Tentacool": {
         "(Lv. 5) Tentacool1 [X]": {
         "evs": {
@@ -30357,7 +30454,8 @@ var SETDEX_ADV =
         "nature": "Hasty",
         "item": "Liechi Berry",
         "isCustomSet": true
-        },
+        }
+    },
     "Tentacruel": {
         "Tentacruel1 [C]": {
         "evs": {
@@ -30511,7 +30609,8 @@ var SETDEX_ADV =
         "nature": "Adamant",
         "item": "Choice Band",
         "isCustomSet": true
-        },
+        }
+    },
     "Togetic": {
         "Togetic1 [A]": {
         "evs": {
@@ -30628,7 +30727,8 @@ var SETDEX_ADV =
         "nature": "Lonely",
         "item": "Salac Berry",
         "isCustomSet": true
-        },
+        }
+    },
     "Torkoal": {
         "Torkoal1 [A]": {
         "evs": {
@@ -30783,7 +30883,8 @@ var SETDEX_ADV =
         "nature": "Timid",
         "item": "Petaya Berry",
         "isCustomSet": true
-        },
+        }
+    },
     "Trapinch": {
         "(Lv. 5) Trapinch1 [Y]": {
         "evs": {
@@ -30860,7 +30961,8 @@ var SETDEX_ADV =
         "nature": "Impish",
         "item": "Oran Berry",
         "isCustomSet": true
-        },
+        }
+    },
     "Treecko": {
         "(Lv. 5) Treecko1 [X]": {
         "evs": {
@@ -30937,7 +31039,8 @@ var SETDEX_ADV =
         "nature": "Naive",
         "item": "Petaya Berry",
         "isCustomSet": true
-        },
+        }
+    },
     "Tropius": {
         "Tropius1 [A]": {
         "evs": {
@@ -31362,7 +31465,8 @@ var SETDEX_ADV =
         "nature": "Brave",
         "item": "Oran Berry",
         "isCustomSet": true
-        },
+        }
+    },
     "Umbreon": {
         "Umbreon1 [C]": {
         "evs": {
@@ -32112,7 +32216,8 @@ var SETDEX_ADV =
         "nature": "Careful",
         "item": "Leftovers",
         "isCustomSet": true
-        },
+        }
+    },
     "Venusaur": {
         "Venusaur1 [D]": {
         "evs": {
@@ -32771,7 +32876,8 @@ var SETDEX_ADV =
         "nature": "Hasty",
         "item": "Petaya Berry",
         "isCustomSet": true
-        },
+        }
+    },
     "Vulpix": {
         "(Lv. 5) Vulpix1 [X]": {
         "evs": {
@@ -32810,7 +32916,8 @@ var SETDEX_ADV =
         "nature": "Timid",
         "item": "White Herb",
         "isCustomSet": true
-        },
+        }
+    },
     "Wailmer": {
         "(Lv. 5) Wailmer1 [Z]": {
         "evs": {
@@ -32925,7 +33032,8 @@ var SETDEX_ADV =
         "nature": "Modest",
         "item": "Mystic Water",
         "isCustomSet": true
-        },
+        }
+    },
     "Wailord": {
         "Wailord1 [A]": {
         "evs": {
@@ -33293,7 +33401,8 @@ var SETDEX_ADV =
         "nature": "Adamant",
         "item": "Mental Herb",
         "isCustomSet": true
-        },
+        }
+    },
     "Weezing": {
         "Weezing1 [D]": {
         "evs": {
@@ -33678,7 +33787,8 @@ var SETDEX_ADV =
         "nature": "Modest",
         "item": "Oran Berry",
         "isCustomSet": true
-        },
+        }
+    },
     "Wigglytuff": {
         "Wigglytuff1 [A]": {
         "evs": {
@@ -33833,7 +33943,8 @@ var SETDEX_ADV =
         "nature": "Timid",
         "item": "Leftovers",
         "isCustomSet": true
-        },
+        }
+    },
     "Wooper": {
         "(Lv. 5) Wooper1 [W]": {
         "evs": {
@@ -33910,7 +34021,8 @@ var SETDEX_ADV =
         "nature": "Relaxed",
         "item": "Leftovers",
         "isCustomSet": true
-        },
+        }
+    },
     "Wurmple": {
         "(Lv. 5) Wurmple1 [W]": {
         "evs": {
@@ -33930,7 +34042,8 @@ var SETDEX_ADV =
         "nature": "Careful",
         "item": "Mental Herb",
         "isCustomSet": true
-        },
+        }
+    },
     "Wynaut": {
         "(Lv. 5) Wynaut1 [Z]": {
         "evs": {
@@ -34045,7 +34158,8 @@ var SETDEX_ADV =
         "nature": "Calm",
         "item": "Oran Berry",
         "isCustomSet": true
-        },
+        }
+    },
     "Xatu": {
         "Xatu1 [B]": {
         "evs": {
@@ -34737,7 +34851,8 @@ var SETDEX_ADV =
         "nature": "Adamant",
         "item": "Lum Berry",
         "isCustomSet": true
-        },
+        }
+    },
     "Zubat": {
         "(Lv. 5) Zubat1 [W]": {
         "evs": {
@@ -34814,5 +34929,6 @@ var SETDEX_ADV =
         "nature": "Jolly",
         "item": "Choice Band",
         "isCustomSet": true
+        }
     }
 };
