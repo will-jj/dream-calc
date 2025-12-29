@@ -3762,7 +3762,7 @@ var SETDEX_ADV =
             "Leech Seed"
         ],
         "nature": "Modest",
-        "item": "Leftovers",
+        "item": "Miracle Seed",
         "isCustomSet": true
         },
     "Celebi5 [F]": {
@@ -31423,7 +31423,7 @@ var SETDEX_ADV =
             "Protect"
         ],
         "nature": "Calm",
-        "item": "Black Glasses",
+        "item": "Leftovers",
         "isCustomSet": true
         }
     },
