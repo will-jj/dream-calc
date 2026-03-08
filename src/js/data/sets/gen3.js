@@ -21742,7 +21742,6 @@ var SETDEX_ADV =
         "isCustomSet": true
         }
     },
-    Set Code for Calc (Order by Pokemon Name and Set ID)
     "Politoed": {
         "Politoed1 [B]": {
         "evs": {
