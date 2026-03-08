@@ -39,7 +39,6 @@ var SETDEX_ADV =
             "item": "Lum Berry",
             "isCustomSet": true
             }
-        },
         "Abra1 [Z]": {
         "evs": {
             "hp": 0,
