@@ -152,7 +152,7 @@ var SETDEX_ADV =
         "nature": "Timid",
         "item": "Salac Berry",
         "isCustomSet": true
-        },
+        }
     },
     "Absol": {
         "Absol1 [A]": {
@@ -4562,7 +4562,7 @@ var SETDEX_ADV =
         "nature": "Modest",
         "item": "Petaya Berry",
         "isCustomSet": true
-        },
+        }
     },
     "Clamperl": {
         "Clamperl1 [A]": {
@@ -4716,7 +4716,7 @@ var SETDEX_ADV =
         "nature": "Bold",
         "item": "Deep Sea Scale",
         "isCustomSet": true
-        },
+        }
     },
     "Claydol": {
         "Claydol1 [D]": {
@@ -5764,7 +5764,7 @@ var SETDEX_ADV =
         "nature": "Impish",
         "item": "Thick Club",
         "isCustomSet": true
-        },
+        }
     },
     "Cyndaquil": {
         "Cyndaquil1 [X]": {
@@ -7406,7 +7406,7 @@ var SETDEX_ADV =
         "nature": "Relaxed",
         "item": "Oran Berry",
         "isCustomSet": true
-        },
+        }
     },
     "Dustox": {
         "Dustox1 [A]": {
@@ -8524,7 +8524,7 @@ var SETDEX_ADV =
         "nature": "Relaxed",
         "item": "Oran Berry",
         "isCustomSet": true
-        },
+        }
     },
     "Exeggutor": {
         "Exeggutor1 [C]": {
@@ -12853,7 +12853,7 @@ var SETDEX_ADV =
         "nature": "Mild",
         "item": "Salac Berry",
         "isCustomSet": true
-        },
+        }
     },
     "Huntail": {
         "Huntail1 [A]": {
@@ -15943,7 +15943,7 @@ var SETDEX_ADV =
         "nature": "Sassy",
         "item": "Leftovers",
         "isCustomSet": true
-        },
+        }
     },
     "Linoone": {
         "Linoone1 [C]": {
@@ -21035,7 +21035,7 @@ var SETDEX_ADV =
         "nature": "Jolly",
         "item": "Choice Band",
         "isCustomSet": true
-        },
+        }
     },
     "Paras": {
         "Paras1 [W]": {
@@ -22126,7 +22126,7 @@ var SETDEX_ADV =
         "nature": "Timid",
         "item": "White Herb",
         "isCustomSet": true
-        },
+        }
     },
     "Poochyena": {
         "Poochyena1 [W]": {
@@ -22319,7 +22319,7 @@ var SETDEX_ADV =
         "nature": "Impish",
         "item": "Chesto Berry",
         "isCustomSet": true
-        },
+        }
     },
     "Porygon2": {
         "Porygon2-1 [D]": {
