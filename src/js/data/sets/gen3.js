@@ -39,8 +39,7 @@ var SETDEX_ADV =
         "item": "Lum Berry",
         "isCustomSet": true
         },
-    "Abra": {
-        "Abra1 [Z]": {
+    "Abra1 [Z]": {
         "evs": {
             "hp": 0,
             "at": 0,
@@ -4464,8 +4463,7 @@ var SETDEX_ADV =
         "item": "Lum Berry",
         "isCustomSet": true
         },
-    "Chinchou": {
-        "Chinchou1 [Z]": {
+    "Chinchou1 [Z]": {
         "evs": {
             "hp": 0,
             "at": 0,
@@ -4619,8 +4617,7 @@ var SETDEX_ADV =
         "item": "Deep Sea Scale",
         "isCustomSet": true
         },
-    "Clamperl": {
-        "Clamperl1 [Z]": {
+    "Clamperl1 [Z]": {
         "evs": {
             "hp": 255,
             "at": 0,
@@ -5670,8 +5667,7 @@ var SETDEX_ADV =
         "item": "Thick Club",
         "isCustomSet": true
         },
-    "Cubone": {
-        "Cubone1 [Z]": {
+    "Cubone1 [Z]": {
         "evs": {
             "hp": 0,
             "at": 255,
@@ -7318,8 +7314,7 @@ var SETDEX_ADV =
         "item": "Lum Berry",
         "isCustomSet": true
         },
-    "Duskull": {
-        "Duskull1 [Y]": {
+    "Duskull1 [Y]": {
         "evs": {
             "hp": 255,
             "at": 0,
@@ -8441,8 +8436,7 @@ var SETDEX_ADV =
         "item": "Leppa Berry",
         "isCustomSet": true
         },
-    "Exeggcute": {
-        "Exeggcute1 [Y]": {
+    "Exeggcute1 [Y]": {
         "evs": {
             "hp": 255,
             "at": 0,
@@ -12781,8 +12775,7 @@ var SETDEX_ADV =
         "item": "White Herb",
         "isCustomSet": true
         },
-    "Houndour": {
-        "Houndour1 [Z]": {
+    "Houndour1 [Z]": {
         "evs": {
             "hp": 0,
             "at": 0,
@@ -15878,8 +15871,7 @@ var SETDEX_ADV =
         "item": "Leppa Berry",
         "isCustomSet": true
         },
-    "Lileep": {
-        "Lileep1 [Y]": {
+    "Lileep1 [Y]": {
         "evs": {
             "hp": 170,
             "at": 0,
@@ -21027,8 +21019,7 @@ var SETDEX_ADV =
         "item": "Salac Berry",
         "isCustomSet": true
         },
-    "Onix": {
-        "Onix1 [X]": {
+    "Onix1 [X]": {
         "evs": {
             "hp": 0,
             "at": 255,
@@ -22087,8 +22078,7 @@ var SETDEX_ADV =
         "item": "White Herb",
         "isCustomSet": true
         },
-    "Ponyta": {
-        "Ponyta1 [Y]": {
+    "Ponyta1 [Y]": {
         "evs": {
             "hp": 0,
             "at": 0,
@@ -22282,8 +22272,7 @@ var SETDEX_ADV =
         "item": "Mail",
         "isCustomSet": true
         },
-    "Porygon": {
-        "Porygon1 [Z]": {
+    "Porygon1 [Z]": {
         "evs": {
             "hp": 255,
             "at": 255,
@@ -32887,25 +32876,6 @@ var SETDEX_ADV =
         "isCustomSet": true
         }
     },
-    "Voltorb3 [Y]": {
-        "evs": {
-            "hp": 170,
-            "at": 0,
-            "df": 170,
-            "sa": 0,
-            "sd": 0,
-            "sp": 170
-        },
-        "moves": [
-            "Thunderbolt",
-            "Protect",
-            "Toxic",
-            "Substitute"
-        ],
-        "nature": "Timid",
-        "item": "Leftovers",
-        "isCustomSet": true
-        },
     "Voltorb": {
         "Voltorb1 [Y]": {
         "evs": {
@@ -32943,6 +32913,25 @@ var SETDEX_ADV =
         ],
         "nature": "Lonely",
         "item": "Salac Berry",
+        "isCustomSet": true
+        },
+    "Voltorb3 [Y]": {
+        "evs": {
+            "hp": 170,
+            "at": 0,
+            "df": 170,
+            "sa": 0,
+            "sd": 0,
+            "sp": 170
+        },
+        "moves": [
+            "Thunderbolt",
+            "Protect",
+            "Toxic",
+            "Substitute"
+        ],
+        "nature": "Timid",
+        "item": "Leftovers",
         "isCustomSet": true
         },
     "Voltorb4 [Y]": {
