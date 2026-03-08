@@ -20,26 +20,26 @@ var SETDEX_ADV =
         "item": "Petaya Berry",
         "isCustomSet": true
         },
-    "Abra2 [A]": {
-        "evs": {
-            "hp": 0,
-            "at": 0,
-            "df": 0,
-            "sa": 255,
-            "sd": 0,
-            "sp": 255
+        "Abra2 [A]": {
+            "evs": {
+                "hp": 0,
+                "at": 0,
+                "df": 0,
+                "sa": 255,
+                "sd": 0,
+                "sp": 255
+            },
+            "moves": [
+                "Psychic",
+                "Ice Punch",
+                "Hidden Power Dark",
+                "Fire Punch"
+            ],
+            "nature": "Timid",
+            "item": "Lum Berry",
+            "isCustomSet": true
+            }
         },
-        "moves": [
-            "Psychic",
-            "Ice Punch",
-            "Hidden Power Dark",
-            "Fire Punch"
-        ],
-        "nature": "Timid",
-        "item": "Lum Berry",
-        "isCustomSet": true
-        }
-    },
         "Abra1 [Z]": {
         "evs": {
             "hp": 0,
@@ -154,6 +154,7 @@ var SETDEX_ADV =
         "item": "Salac Berry",
         "isCustomSet": true
         },
+    },
     "Absol": {
         "Absol1 [A]": {
         "evs": {
@@ -4449,7 +4450,6 @@ var SETDEX_ADV =
         "item": "Lum Berry",
         "isCustomSet": true
         }
-    },
         "Chinchou1 [Z]": {
         "evs": {
             "hp": 0,
@@ -4564,6 +4564,7 @@ var SETDEX_ADV =
         "item": "Petaya Berry",
         "isCustomSet": true
         },
+    },
     "Clamperl": {
         "Clamperl1 [A]": {
         "evs": {
@@ -4603,7 +4604,6 @@ var SETDEX_ADV =
         "item": "Deep Sea Scale",
         "isCustomSet": true
         }
-    },
         "Clamperl1 [Z]": {
         "evs": {
             "hp": 255,
@@ -4718,6 +4718,7 @@ var SETDEX_ADV =
         "item": "Deep Sea Scale",
         "isCustomSet": true
         },
+    },
     "Claydol": {
         "Claydol1 [D]": {
         "evs": {
@@ -5651,7 +5652,6 @@ var SETDEX_ADV =
         "item": "Thick Club",
         "isCustomSet": true
         }
-    },
         "Cubone1 [Z]": {
         "evs": {
             "hp": 0,
@@ -5766,6 +5766,7 @@ var SETDEX_ADV =
         "item": "Thick Club",
         "isCustomSet": true
         },
+    },
     "Cyndaquil": {
         "Cyndaquil1 [X]": {
         "evs": {
@@ -7293,7 +7294,6 @@ var SETDEX_ADV =
         "item": "Lum Berry",
         "isCustomSet": true
         }
-    },
         "Duskull1 [Y]": {
         "evs": {
             "hp": 255,
@@ -7408,6 +7408,7 @@ var SETDEX_ADV =
         "item": "Oran Berry",
         "isCustomSet": true
         },
+    },
     "Dustox": {
         "Dustox1 [A]": {
         "evs": {
@@ -8411,7 +8412,6 @@ var SETDEX_ADV =
         "item": "Leppa Berry",
         "isCustomSet": true
         }
-    },
         "Exeggcute1 [Y]": {
         "evs": {
             "hp": 255,
@@ -8526,6 +8526,7 @@ var SETDEX_ADV =
         "item": "Oran Berry",
         "isCustomSet": true
         },
+    },
     "Exeggutor": {
         "Exeggutor1 [C]": {
         "evs": {
@@ -12740,7 +12741,6 @@ var SETDEX_ADV =
         "item": "White Herb",
         "isCustomSet": true
         }
-    },
         "Houndour1 [Z]": {
         "evs": {
             "hp": 0,
@@ -12855,6 +12855,7 @@ var SETDEX_ADV =
         "item": "Salac Berry",
         "isCustomSet": true
         },
+    },
     "Huntail": {
         "Huntail1 [A]": {
         "evs": {
@@ -15830,7 +15831,6 @@ var SETDEX_ADV =
         "item": "Leppa Berry",
         "isCustomSet": true
         }
-    },
         "Lileep1 [Y]": {
         "evs": {
             "hp": 170,
@@ -15945,6 +15945,7 @@ var SETDEX_ADV =
         "item": "Leftovers",
         "isCustomSet": true
         },
+    },
     "Linoone": {
         "Linoone1 [C]": {
         "evs": {
@@ -20960,7 +20961,6 @@ var SETDEX_ADV =
         "item": "Salac Berry",
         "isCustomSet": true
         }
-    },
         "Onix1 [X]": {
         "evs": {
             "hp": 0,
@@ -21037,6 +21037,7 @@ var SETDEX_ADV =
         "item": "Choice Band",
         "isCustomSet": true
         },
+    },
     "Paras": {
         "Paras1 [W]": {
         "evs": {
@@ -22013,7 +22014,6 @@ var SETDEX_ADV =
         "item": "White Herb",
         "isCustomSet": true
         }
-    },
         "Ponyta1 [Y]": {
         "evs": {
             "hp": 0,
@@ -22128,6 +22128,7 @@ var SETDEX_ADV =
         "item": "White Herb",
         "isCustomSet": true
         },
+    },
     "Poochyena": {
         "Poochyena1 [W]": {
         "evs": {
@@ -22206,7 +22207,6 @@ var SETDEX_ADV =
         "item": "Mail",
         "isCustomSet": true
         }
-    },
         "Porygon1 [Z]": {
         "evs": {
             "hp": 255,
@@ -22321,6 +22321,7 @@ var SETDEX_ADV =
         "item": "Chesto Berry",
         "isCustomSet": true
         },
+    },
     "Porygon2": {
         "Porygon2-1 [D]": {
         "evs": {
